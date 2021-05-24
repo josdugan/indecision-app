@@ -1,3 +1,5 @@
 node_modules/
 *.lock
 public/scripts/
+archive/
+public/bundle.js
