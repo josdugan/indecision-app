@@ -15,6 +15,14 @@ module.exports = {
                     /node_modules/,
                     /archive/
                 ]
+            },
+            {
+                test: /\.s?css$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
             }
         ]
     },
